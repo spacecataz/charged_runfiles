@@ -1,0 +1,10 @@
+Set things to: GM/BATSRUS,IM/RCM2,IE/Ridley_serial,UA/GITM
+
+This is test code to determine if the couplings work...
+
+NOTES: 
+1/25/19 Two way coupling between IE and UA is still disabled!
+1/22/19 One way to get this setup to go is to change the coupler... This is not the best solution... 
+1/22/19 Ridley_serial is node based. There is a sizing issue between IE and UA. I suspect someone configured the IE-UA coupler to work for RIM (grid based - and works right away) and broke it for Ridley_serial. How often have people been using UA in SWMF anyways... They are missing out on the cool stuff!
+1/19/19 Don't forget to use the SWMF Config.pl -v=Empty,GM/BATSRUS,IE/Ridley_serial,UA/GITM,IM/RCM2 for this test. The IE sections of the PARAM.in file are set to Ridley_serial specifications.
+1/10/19 It is necessary to manually update GITM (from the Aaron Ridley github) so it will properly compile, create links, and run. Efforts are underway to update the github source code.
