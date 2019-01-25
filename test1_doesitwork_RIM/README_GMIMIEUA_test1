@@ -1,0 +1,8 @@
+Set things to: GM/BATSRUS,IM/RCM2,IE/RIM,UA/GITM
+
+This is test code to determine if the couplings work...
+
+NOTES: 
+1/25/19 Two way coupling between IE and UA is still disabled!
+1/10/19 RIM is not directly downloadable via the SWMF Config.pl script but it IS in herot. Go to the IE folder and then use "git clone --depth=1 herot:/GIT/FRAMEWORK/RIM" to get it. Don't forget to use the SWMF Config.pl -v=Empty,GM/BATSRUS,IE/RIM,UA/GITM.IM/RCM2 to use RIM and not Ridley_serial for this test. The IE sections of the PARAM.in file are set to RIM specifications.
+1/10/19 It is necessary to manually update GITM (from the Aaron Ridley github) so it will properly compile, create links, and run. Efforts are underway to update the github source code.
