@@ -19,7 +19,10 @@ preconditioning restarts for the coupled runs that begin on 2015/03/16 20:00UT a
 the full storm in GITM stand-alone.
 
 The GMIMIE combination has two sets of PARAMS:
-PARAM.in contains the input files 
+PARAM.in is the configuration based on SWPC version 2 set up.
+PARAM.in_*_RCM is a 10M cell resolution run with dense magnetometer output.
+Users should take care before using this configuration as it is resource intensive.
+The latter is based on work by the CUSIA center.
 
 Satellites & Magnetometers
 --------------------------
